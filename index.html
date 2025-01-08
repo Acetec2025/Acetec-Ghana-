@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACETEC | Engineering & Construction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #004643;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        header img {
+            max-width: 100px;
+            display: block;
+            margin: 0 auto 1rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #abd1c6;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #004643;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        .service {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1rem;
+            background-color: #f9f9f9;
+        }
+        form {
+            max-width: 500px;
+            margin: 2rem auto;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        form label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        form button {
+            background-color: #004643;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #abd1c6;
+            color: #004643;
+        }
+        footer {
+            background-color: #004643;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        footer a {
+            color: #abd1c6;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/mnt/data/ACETEC.png" alt="ACETEC Logo">
+        <h1>Welcome to Ace Total Engineering Consultancy (ACETEC)</h1>
+        <p>Your partner in sustainable, affordable, and efficient engineering solutions.</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Us</h2>
+            <p>At ACETEC, we specialize in construction, renovations, engineering drawings, and consultancy. Based in Accra, Ghana, we pride ourselves on delivering sustainable and cost-effective solutions tailored to young professionals, businesses, and communities. Our commitment to professionalism, affordability, and efficiency sets us apart.</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Construction & Renovations</h3>
+                    <p>We deliver high-quality construction and renovation services designed to meet your unique needs while ensuring affordability and sustainability.</p>
+                </div>
+                <div class="service">
+                    <h3>Engineering Drawings & Consultancy</h3>
+                    <p>Our expert team provides precise engineering designs and consultancy services to streamline your projects efficiently and professionally.</p>
+                </div>
+                <div class="service">
+                    <h3>Cleaning Services</h3>
+                    <p>We offer residential, commercial, post-construction cleaning, and pressure washing services using eco-friendly practices.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>We’d love to hear from you! Reach out to us through the following channels:</p>
+            <ul>
+                <li><strong>Address:</strong> [Insert Address Here]</li>
+                <li><strong>Email:</strong> <a href="mailto:info@acetec.com">info@acetec.com</a></li>
+                <li><strong>Phone:</strong> [Insert Phone Number Here]</li>
+            </ul>
+
+            <h3>Inquiry Form</h3>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Ace Total Engineering Consultancy (ACETEC). All rights reserved.</p>
+        <p><a href="#">Back to Top</a></p>
+    </footer>
+</body>
+</html>
